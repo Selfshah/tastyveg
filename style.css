@@ -1,3 +1,53 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+.flexible-container1{
+    display: flex;
+    background-color: #13214A;
+    padding: 15px 100px 0 150px;
+}
+.hero-width{
+    width: 50%;
+}
+.hero-width img{
+    width: 120%;
+    height: 100%;
+}
+.hero-texts{
+    margin-bottom: 50px;
+    padding-top: 50px;
+    color: white;
+}
+.hero-texts h1{
+    font-size: 50px;
+}
+.hero-texts h3{
+    font-size: 20px;
+}
+.brand-text1{
+    color: #FA6867;
+}
+.brand-text2{
+    color: #47C757;
+}
+.order-now-button{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 10px 32px;
+    background: linear-gradient(88.33deg, #47C757 -7.64%, #3CB449 145.94%);
+    box-shadow: 0px 2px 30px rgba(145, 252, 73, 0.5);
+    border-radius: 100px;
+    margin-top: 20px;
+}
+.flexible-container2{
+    display: flex;
+}
+.section-width{
+    width: 50%;
+}
+.section-width img{
+    width: 95%;
 }
