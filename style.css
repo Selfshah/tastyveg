@@ -74,3 +74,14 @@ body{
     border-radius: 100px;
     margin-top: 20px;
 }
+.flexible-container-3{
+    background-color: #E5E5E5;
+}
+.flexible-container-3 h1{
+    text-align: center;
+    color: #13214A;
+}
+.flexible-container-3 p{
+    text-align: center;
+    color: #13214A;
+}
