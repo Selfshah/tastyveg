@@ -1,5 +1,7 @@
 body{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Encode Sans SC', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Otomanopee One', sans-serif;
     margin: 0;
 }
 
@@ -21,10 +23,10 @@ body{
     color: white;
 }
 .hero-texts h1{
-    font-size: 50px;
+    font-size: 45px;
 }
 .hero-texts h3{
-    font-size: 20px;
+    font-size: 18px;
 }
 .brand-text1{
     color: #FA6867;
@@ -74,14 +76,57 @@ body{
     border-radius: 100px;
     margin-top: 20px;
 }
+.section-3{
+    background-color: #E5E5E5;
+    padding: 10px 200px 40px 200px;
+}
+.section-3 h1{
+    color: #13214A;
+    text-align: center;
+}
+.section-3 h3{
+    color: #13214A;
+    text-align: center;
+    padding-bottom: 15px;
+}
 .flexible-container-3{
+    display: flex;
     background-color: #E5E5E5;
 }
-.flexible-container-3 h1{
-    text-align: center;
-    color: #13214A;
+.recipe-box{
+    background-color: white;
+    height: 415px;
+    width: 33%;
+    border-radius: 30px;
+    padding: 15px 15px;
+    margin: 0 3%;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
 }
-.flexible-container-3 p{
-    text-align: center;
-    color: #13214A;
+.recipe-box img{
+    width: 100%;
+    border-radius: 20px;
+    margin-bottom: 5px;
 }
+.recipe-box h1{
+    font-weight: 800;
+    font-size: 18px;
+    font-style: normal;
+    text-align: left;
+}
+.recipe-box p{
+    font-weight: 400;
+    font-size: 15px;
+    font-style: normal;
+    text-align: left;
+    padding-bottom: 20px;
+}
+.see-details-button{
+    text-decoration: none;
+    color: white;
+    padding: 10px 32px;
+    background: linear-gradient(88.33deg, #FBA24F -7.64%, #FF1E1E 145.94%);
+    box-shadow: 0px 2px 30px rgba(252, 143, 73, 0.5);
+    border-radius: 100px;
+    margin-top: 20px;
+}
+
