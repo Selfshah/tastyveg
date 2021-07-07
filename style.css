@@ -83,6 +83,7 @@ body{
 .section-3 h1{
     color: #13214A;
     text-align: center;
+    font-size: 35px;
 }
 .section-3 h3{
     color: #13214A;
@@ -129,4 +130,55 @@ body{
     border-radius: 100px;
     margin-top: 20px;
 }
-
+.section-4{
+    background-color: #E5E5E5;
+    padding: 50px 0 10px 8%;
+}
+.section-4 h1{
+    text-align: center;
+    font-size: 35px;
+    color: #13214A;
+    font-style: normal;
+}
+.section-4 p{
+    color: #FA6867;
+    font-style: oblique;
+    font-size: 15px;
+}
+.flexible-container-4{
+    display: flex;
+    background-color: #E5E5E5;
+}
+.customer{
+    box-shadow: 0px 0px 30px grey;
+    background-color: #13214A;
+    display: inline-block;
+    width: 40%;
+    padding: 1.7% 2.5%;
+    margin: 1.4% 1%;
+    border-radius: 20px;
+}
+.customer img{
+    width: 10%;
+    border-radius: 75%;
+    margin-bottom: -10px;
+}
+.user-info{
+    box-sizing: border-box;
+    display: flex;
+    display: inline-block;
+    padding: 0 0 20px 10px;
+}
+.user-info h4{
+    color: white;
+    margin: 1px 0;
+}
+.user-info h5{
+    color: white;
+    margin: 0;
+}.quotation{
+    font-size: 35px;
+    color: #47C757;
+    font-weight: bold;
+    font-style: oblique;
+}
