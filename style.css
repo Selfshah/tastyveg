@@ -78,7 +78,7 @@ body{
 }
 .section-3{
     background-color: #E5E5E5;
-    padding: 10px 200px 40px 200px;
+    padding: 10px 200px 15px 200px;
 }
 .section-3 h1{
     color: #13214A;
@@ -154,7 +154,7 @@ body{
     background-color: #13214A;
     display: inline-block;
     width: 40%;
-    padding: 1.7% 2.5%;
+    padding: 1.7% 2.3%;
     margin: 1.4% 1%;
     border-radius: 20px;
 }
@@ -182,3 +182,65 @@ body{
     font-weight: bold;
     font-style: oblique;
 }
+.section-5{
+    background-color: #E5E5E5;
+    padding: 10px 0;
+}
+.section-5 h1{
+    font-size: 35px;
+    color: #13214A;
+    text-align: center;
+    padding-top: 30px;
+}
+.flexible-container-5{
+    background-color: white;
+    display: flex;
+    width: 60%;
+    margin: 20px 0 -5px 190px;
+    padding: 0 100px;
+    box-shadow: 0px 0px 30px grey;
+    border-radius: 20px;
+}
+.chief-details1{
+    display: inline-block;
+    margin: 25px 0 0 30px;
+    text-align: left;
+}
+.chief-details2{
+    display: inline-block;
+    margin: 25px 30px 0 0;
+    text-align: end;
+}
+.chief1 img{
+    margin-left: -100px;
+    border-radius: 10px 0 0 10px;
+}
+.chief2 img{
+    margin-right: -100px;
+    border-radius: 0 10px 10px 0;
+}
+.section-6{
+    background-color: #E5E5E5;
+    padding: 30px 30px;
+}
+.flexible-container-6{
+    display: flex;
+    box-shadow: 0px 0px 30px grey;
+    width: 60%;
+    margin: 20px 0 -5px 250px;
+    padding: 20px;
+    background-color: #13214A;
+    border-radius: 20px;
+}
+.flexible-container-6 h1{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    padding-left: 75px;
+}
+.flexible-container-6 p{
+    color: white;
+    text-align: center;
+    padding-left: 75px;
+}
+
